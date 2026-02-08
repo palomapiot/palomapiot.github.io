@@ -24,8 +24,8 @@ cv:
         location: A Coruña, Spain
         area: Natural Language Processing / Computer Science
         studyType: PhD
-        start_date: 2023
-        end_date: Present
+        start_date: 2023-10
+        end_date: 2026-10
         highlights:
           - Marie Skłodowska-Curie Research Fellow
           - Research on hate speech detection
@@ -50,13 +50,14 @@ cv:
       - company: IRlab - Universidade da Coruña
         position: PhD Researcher & Research Assistant
         location: Spain
-        start_date: 2023
-        end_date: Present
+        start_date: 2023-10
+        end_date: 2026-10
         highlights:
           - PhD thesis on hate speech detection
 
     Awards:
       - title: Best Open Source Project Award
+        authors: "Paloma Piot"
         date: 2021-10
         awarder: Universidad da Coruña
         summary: Winner of the award for the best open-source university project in 2021.
@@ -88,7 +89,7 @@ cv:
           - Human-in-the-loop hate speech detection
           - Multilingual and low-resource language focus
           - Ethical and explainable AI for content moderation
-        start_date: 2023
-        end_date: Present
+        start_date: 2023-10
+        end_date: 2026-10
         
 #    References: []
