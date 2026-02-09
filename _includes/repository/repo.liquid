@@ -3,20 +3,22 @@
 {% assign name = repo_url[1] %}
 {% assign repo = site.github.public_repositories | where: "name", name | first %}
 
-<div class="repo p-3 text-left border rounded w-100 mb-3">
-  <a href="https://github.com/{{ include.repository }}">
-    <strong>{{ name }}</strong>
-  </a>
+<div class="card h-100 shadow-sm">
+  <div class="card-body">
+    <h5 class="card-title mb-1">
+      <a href="https://github.com/{{ include.repository }}">{{ name }}</a>
+    </h5>
 
-  {% if repo.description %}
-    <p class="repo-description mt-1 mb-1 small">
-      {{ repo.description }}
+    {% if repo.description %}
+      <p class="card-text small text-muted">
+        {{ repo.description }}
+      </p>
+    {% endif %}
+
+    <p class="card-text small mb-0 text-muted">
+      {{ owner }}
+      {% if repo.language %} · {{ repo.language }}{% endif %}
+      {% if repo.stargazers_count %} · ★ {{ repo.stargazers_count }}{% endif %}
     </p>
-  {% endif %}
-
-  <div class="text-muted small">
-    {{ owner }}
-    {% if repo.language %} · {{ repo.language }}{% endif %}
-    {% if repo.stargazers_count %} · ★ {{ repo.stargazers_count }}{% endif %}
   </div>
 </div>
