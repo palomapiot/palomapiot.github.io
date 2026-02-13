@@ -1,3 +1,55 @@
 metadata:
-  last_updated: '2026-02-06'
+  last_updated: '2026-02-13'
 papers:
+  gY7dBboAAAAJ:9yKSN-GCB0IC:
+    citations: 3
+    title: Experimental Analysis of the Relevance of Features and Effects on Gender Classification Models for Social Media Author Profiling.
+    year: '2021'
+  gY7dBboAAAAJ:Se3iqnhoufwC:
+    citations: 0
+    title: 'Beyond the Explicit: A Bilingual Dataset for Dehumanization Detection in Social Media'
+    year: '2025'
+  gY7dBboAAAAJ:Tyk-4Ss8FVUC:
+    citations: 9
+    title: "Decoding hate: Exploring language models\u2019 reactions to hate speech"
+    year: '2025'
+  gY7dBboAAAAJ:UebtZRa9Y70C:
+    citations: 1
+    title: Can LLMs Evaluate What They Cannot Annotate? Revisiting LLM Reliability in Hate Speech Detection
+    year: '2025'
+  gY7dBboAAAAJ:W7OEmFMy1HYC:
+    citations: 3
+    title: A systematic review of automated hyperpartisan news detection
+    year: '2025'
+  gY7dBboAAAAJ:WF5omc3nYNoC:
+    citations: 0
+    title: 'WATCHED: A Web AI Agent Tool for Combating Hate speech by Expanding Data'
+    year: '2025'
+  gY7dBboAAAAJ:Y0pCki6q_DkC:
+    citations: 12
+    title: Towards Efficient and Explainable Hate Speech Detection via Model Distillation
+    year: '2025'
+  gY7dBboAAAAJ:eQOLeE2rZwMC:
+    citations: 1
+    title: Personalisation or Prejudice? Addressing Geographic Bias in Hate Speech Detection using Debias Tuning in Large Language Models
+    year: '2025'
+  gY7dBboAAAAJ:hqOjcs7Dif8C:
+    citations: 0
+    title: 'PartisanLens: A Multilingual Dataset of Hyperpartisan and Conspiratorial Immigration Narratives in European Media'
+    year: '2026'
+  gY7dBboAAAAJ:qjMakFHDy7sC:
+    citations: 35
+    title: 'MetaHate: A Dataset for Unifying Efforts on Hate Speech Detection'
+    year: '2024'
+  gY7dBboAAAAJ:u-x6o8ySG0sC:
+    citations: 4
+    title: 'Psyprof: a platform for assisted screening of depression in social media'
+    year: '2023'
+  gY7dBboAAAAJ:u5HHmVD_uO8C:
+    citations: 3
+    title: Gender classification models and feature impact for social media author profiling
+    year: '2021'
+  gY7dBboAAAAJ:ufrVoPGSRksC:
+    citations: 0
+    title: 'Bridging Gaps in Hate Speech Detection: Meta-Collections and Benchmarks for Low-Resource Iberian Languages'
+    year: '2025'
