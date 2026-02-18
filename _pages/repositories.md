@@ -1,15 +1,13 @@
 ---
 layout: page
 permalink: /repositories/
-title: Repositories
+title: 🧠 Research Code & Open-Source Work
 description: 
 nav: true
 nav_order: 4
 ---
 
 {% if site.data.repositories.github_users %}
-
-## 🧠 Research Code & Open-Source Work
 
 <div class="repo-section mb-5">
 
