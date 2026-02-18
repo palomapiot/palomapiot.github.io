@@ -2,14 +2,14 @@
   - firstname: ["Javier", "J.", "Javier Parapar", "Parapar, Javier"]
     url: https://www.dc.fi.udc.es/~parapar/
 
-"patricia":
-  - firstname: ["Patricia", "P.", "Patricia Martin-Rodilla", "Patricia Martín-Rodilla", "Patricia Mart{\'\i}n-Rodilla", "Mart{\'\i}n-Rodilla, Patricia"]
+"martin-rodilla":
+  - firstname: ["Patricia", "P."]
     url: https://patricia-martin-rodilla.com/
 
-"anxo":
-  - firstname: ["Anxo", "A.", "Anxo Perez", "Anxo Pérez", "Pérez, Anxo", "P{\'\e}rez, Anxo"]
+"perez":
+  - firstname: ["Anxo", "A."]
     url: https://pdi.udc.es/en/File/Pdi/UK44K
 
-"david":
-  - firstname: ["David", "D.", "David Otero", "Otero, David"]
+"otero":
+  - firstname: ["David", "D."]
     url: https://www.dc.fi.udc.es/~david/
