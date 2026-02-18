@@ -3,11 +3,7 @@
     url: https://www.dc.fi.udc.es/~parapar/
 
 "martin-rodilla":
-  - firstname: ["Patricia", "P."]
-    url: https://patricia-martin-rodilla.com/
-
-"martín-rodilla":
-  - firstname: ["Patricia", "P."]
+  - firstname: ["Patricia", "P.", "Patricia Martín-Rodilla", "Patricia Mart{\'\i}n-Rodilla"]
     url: https://patricia-martin-rodilla.com/
 
 "perez":

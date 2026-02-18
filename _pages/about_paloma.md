@@ -23,6 +23,4 @@ My research interests revolve around hate speech and abusive language detection,
 
 I maintain open-source implementations of my work and related experiments on [GitHub](https://github.com/palomapiot). You can also follow my academic and professional updates on [LinkedIn](https://www.linkedin.com/in/paloma-piot/) and [X](https://x.com/itspalomap).
 
-For more about my research publications, see the [Publications page](/publications/).  
-
 Feel free to reach out via email at <paloma.piot[at]udc.es>.

@@ -6,6 +6,9 @@
 
 .publications {
   margin-top: 2rem;
+  max-width: 80%; // allow full container width
+  padding-left: 1rem;
+  padding-right: 1rem;
 
   h1 {
     color: var(--global-theme-color);
