@@ -7,7 +7,7 @@ subtitle: PhD Researcher in Natural Language Processing
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>IRLab, UDC</p>
     <p>A Coruña, Spain</p>
