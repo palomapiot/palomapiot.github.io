@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-18'
+  last_updated: '2026-03-13'
 papers:
   gY7dBboAAAAJ:9yKSN-GCB0IC:
-    citations: 3
+    citations: 4
     title: Experimental Analysis of the Relevance of Features and Effects on Gender Classification Models for Social Media Author Profiling.
     year: '2021'
   gY7dBboAAAAJ:Se3iqnhoufwC:
@@ -10,7 +10,7 @@ papers:
     title: 'Beyond the Explicit: A Bilingual Dataset for Dehumanization Detection in Social Media'
     year: '2025'
   gY7dBboAAAAJ:Tyk-4Ss8FVUC:
-    citations: 9
+    citations: 11
     title: "Decoding hate: Exploring language models\u2019 reactions to hate speech"
     year: '2025'
   gY7dBboAAAAJ:UebtZRa9Y70C:
@@ -26,7 +26,7 @@ papers:
     title: 'WATCHED: A Web AI Agent Tool for Combating Hate speech by Expanding Data'
     year: '2025'
   gY7dBboAAAAJ:Y0pCki6q_DkC:
-    citations: 11
+    citations: 12
     title: Towards efficient and explainable hate speech detection via model distillation
     year: '2025'
   gY7dBboAAAAJ:eQOLeE2rZwMC:
@@ -38,11 +38,11 @@ papers:
     title: 'PartisanLens: A Multilingual Dataset of Hyperpartisan and Conspiratorial Immigration Narratives in European Media'
     year: '2026'
   gY7dBboAAAAJ:qjMakFHDy7sC:
-    citations: 37
+    citations: 39
     title: 'MetaHate: A Dataset for Unifying Efforts on Hate Speech Detection'
     year: '2024'
   gY7dBboAAAAJ:u-x6o8ySG0sC:
-    citations: 4
+    citations: 5
     title: 'Psyprof: a platform for assisted screening of depression in social media'
     year: '2023'
   gY7dBboAAAAJ:u5HHmVD_uO8C:
