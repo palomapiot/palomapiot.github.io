@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-13'
+  last_updated: '2026-04-22'
 papers:
   gY7dBboAAAAJ:9yKSN-GCB0IC:
     citations: 4
@@ -10,11 +10,15 @@ papers:
     title: 'Beyond the Explicit: A Bilingual Dataset for Dehumanization Detection in Social Media'
     year: '2025'
   gY7dBboAAAAJ:Tyk-4Ss8FVUC:
-    citations: 11
+    citations: 12
     title: "Decoding hate: Exploring language models\u2019 reactions to hate speech"
     year: '2025'
+  gY7dBboAAAAJ:ULOm3_A8WrAC:
+    citations: 0
+    title: "Uncovering hidden temporal and semantic dataset\u2019s bias in hate speech: A Study of MetaHate's Diachronic and Lexical Variability"
+    year: '2026'
   gY7dBboAAAAJ:UebtZRa9Y70C:
-    citations: 1
+    citations: 2
     title: Can LLMs Evaluate What They Cannot Annotate? Revisiting LLM Reliability in Hate Speech Detection
     year: '2025'
   gY7dBboAAAAJ:W7OEmFMy1HYC:
@@ -22,11 +26,11 @@ papers:
     title: A systematic review of automated hyperpartisan news detection
     year: '2025'
   gY7dBboAAAAJ:WF5omc3nYNoC:
-    citations: 0
+    citations: 1
     title: 'WATCHED: A Web AI Agent Tool for Combating Hate speech by Expanding Data'
     year: '2025'
   gY7dBboAAAAJ:Y0pCki6q_DkC:
-    citations: 12
+    citations: 17
     title: Towards efficient and explainable hate speech detection via model distillation
     year: '2025'
   gY7dBboAAAAJ:eQOLeE2rZwMC:
@@ -38,11 +42,11 @@ papers:
     title: 'PartisanLens: A Multilingual Dataset of Hyperpartisan and Conspiratorial Immigration Narratives in European Media'
     year: '2026'
   gY7dBboAAAAJ:qjMakFHDy7sC:
-    citations: 39
+    citations: 40
     title: 'MetaHate: A Dataset for Unifying Efforts on Hate Speech Detection'
     year: '2024'
   gY7dBboAAAAJ:u-x6o8ySG0sC:
-    citations: 5
+    citations: 6
     title: 'Psyprof: a platform for assisted screening of depression in social media'
     year: '2023'
   gY7dBboAAAAJ:u5HHmVD_uO8C:
@@ -50,6 +54,6 @@ papers:
     title: Gender classification models and feature impact for social media author profiling
     year: '2021'
   gY7dBboAAAAJ:ufrVoPGSRksC:
-    citations: 0
+    citations: 1
     title: 'Bridging Gaps in Hate Speech Detection: Meta-Collections and Benchmarks for Low-Resource Iberian Languages'
     year: '2025'
