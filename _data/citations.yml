@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-22'
+  last_updated: '2026-04-27'
 papers:
   gY7dBboAAAAJ:9yKSN-GCB0IC:
     citations: 4
@@ -10,7 +10,7 @@ papers:
     title: 'Beyond the Explicit: A Bilingual Dataset for Dehumanization Detection in Social Media'
     year: '2025'
   gY7dBboAAAAJ:Tyk-4Ss8FVUC:
-    citations: 12
+    citations: 13
     title: "Decoding hate: Exploring language models\u2019 reactions to hate speech"
     year: '2025'
   gY7dBboAAAAJ:ULOm3_A8WrAC:
@@ -18,7 +18,7 @@ papers:
     title: "Uncovering hidden temporal and semantic dataset\u2019s bias in hate speech: A Study of MetaHate's Diachronic and Lexical Variability"
     year: '2026'
   gY7dBboAAAAJ:UebtZRa9Y70C:
-    citations: 2
+    citations: 3
     title: Can LLMs Evaluate What They Cannot Annotate? Revisiting LLM Reliability in Hate Speech Detection
     year: '2025'
   gY7dBboAAAAJ:W7OEmFMy1HYC:
