@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-27'
+  last_updated: '2026-06-03'
 papers:
   gY7dBboAAAAJ:9yKSN-GCB0IC:
     citations: 4
@@ -10,7 +10,7 @@ papers:
     title: 'Beyond the Explicit: A Bilingual Dataset for Dehumanization Detection in Social Media'
     year: '2025'
   gY7dBboAAAAJ:Tyk-4Ss8FVUC:
-    citations: 13
+    citations: 14
     title: "Decoding hate: Exploring language models\u2019 reactions to hate speech"
     year: '2025'
   gY7dBboAAAAJ:ULOm3_A8WrAC:
@@ -18,7 +18,7 @@ papers:
     title: "Uncovering hidden temporal and semantic dataset\u2019s bias in hate speech: A Study of MetaHate's Diachronic and Lexical Variability"
     year: '2026'
   gY7dBboAAAAJ:UebtZRa9Y70C:
-    citations: 3
+    citations: 4
     title: Can LLMs Evaluate What They Cannot Annotate? Revisiting LLM Reliability in Hate Speech Detection
     year: '2025'
   gY7dBboAAAAJ:W7OEmFMy1HYC:
@@ -39,14 +39,14 @@ papers:
     year: '2026'
   gY7dBboAAAAJ:eQOLeE2rZwMC:
     citations: 1
-    title: Personalisation or Prejudice? Addressing Geographic Bias in Hate Speech Detection using Debias Tuning in Large Language Models
-    year: '2025'
+    title: Personalisation or prejudice? addressing geographic bias in hate speech detection using debias tuning in large language models
+    year: '2026'
   gY7dBboAAAAJ:hqOjcs7Dif8C:
     citations: 0
     title: 'PartisanLens: A Multilingual Dataset of Hyperpartisan and Conspiratorial Immigration Narratives in European Media'
     year: '2026'
   gY7dBboAAAAJ:qjMakFHDy7sC:
-    citations: 45
+    citations: 46
     title: 'MetaHate: A Dataset for Unifying Efforts on Hate Speech Detection'
     year: '2024'
   gY7dBboAAAAJ:u-x6o8ySG0sC:
