@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-03'
+  last_updated: '2026-06-12'
 papers:
   gY7dBboAAAAJ:9yKSN-GCB0IC:
     citations: 4
@@ -18,7 +18,7 @@ papers:
     title: "Uncovering hidden temporal and semantic dataset\u2019s bias in hate speech: A Study of MetaHate's Diachronic and Lexical Variability"
     year: '2026'
   gY7dBboAAAAJ:UebtZRa9Y70C:
-    citations: 4
+    citations: 5
     title: Can LLMs Evaluate What They Cannot Annotate? Revisiting LLM Reliability in Hate Speech Detection
     year: '2025'
   gY7dBboAAAAJ:W7OEmFMy1HYC:
@@ -37,8 +37,12 @@ papers:
     citations: 0
     title: 'Mute Cods: a Multilingual Telegram Conspiracy DataSet'
     year: '2026'
+  gY7dBboAAAAJ:_kc_bZDykSQC:
+    citations: 0
+    title: 'From Self to Other: Evaluating Demographic Perspective-Taking in LLM Hate Speech Annotation'
+    year: '2026'
   gY7dBboAAAAJ:eQOLeE2rZwMC:
-    citations: 1
+    citations: 2
     title: Personalisation or prejudice? addressing geographic bias in hate speech detection using debias tuning in large language models
     year: '2026'
   gY7dBboAAAAJ:hqOjcs7Dif8C:
