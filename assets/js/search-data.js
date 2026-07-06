@@ -16,12 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "Research projects I am part of.",
+        },{id: "nav-other-activities",
+          title: "Other Activities",
+          description: "Other activities I take part in.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/activities/";
           },
         },{id: "nav-repositories",
           title: "Repositories",
@@ -381,11 +381,21 @@ ninja.data = [{
       },{id: "news-new-site",
           title: 'New site!',
           description: "",
-          section: "News",},{id: "projects-hybrids",
+          section: "News",},{id: "projects-eacl-2027-internal-communications-chair",
+          title: 'EACL 2027 Internal Communications Chair',
+          description: "The 20th Conference of the European Chapter of the Association for Computational Linguistics",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/eacl2027/";
+            },},{id: "projects-hybrids",
           title: 'HYBRIDS',
           description: "Combating Disinformation and Abusive Language with Human and Artificial Intelligence",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hybrids/";
+            },},{id: "projects-woah-2026-co-organiser",
+          title: 'WOAH 2026 Co-Organiser',
+          description: "The 10th Workshop on Online Abuse and Harms (WOAH) at EMNLP 2026",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/woah2026/";
             },},{id: "teachings-med",
           title: 'MeD',
           description: "Description",
