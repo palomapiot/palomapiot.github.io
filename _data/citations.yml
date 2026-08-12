@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-12'
+  last_updated: '2026-08-12'
 papers:
   gY7dBboAAAAJ:9yKSN-GCB0IC:
-    citations: 4
+    citations: 5
     title: Experimental Analysis of the Relevance of Features and Effects on Gender Classification Models for Social Media Author Profiling.
     year: '2021'
   gY7dBboAAAAJ:Se3iqnhoufwC:
@@ -10,7 +10,7 @@ papers:
     title: 'Beyond the Explicit: A Bilingual Dataset for Dehumanization Detection in Social Media'
     year: '2025'
   gY7dBboAAAAJ:Tyk-4Ss8FVUC:
-    citations: 14
+    citations: 16
     title: "Decoding hate: Exploring language models\u2019 reactions to hate speech"
     year: '2025'
   gY7dBboAAAAJ:ULOm3_A8WrAC:
@@ -19,18 +19,18 @@ papers:
     year: '2026'
   gY7dBboAAAAJ:UebtZRa9Y70C:
     citations: 5
-    title: Can LLMs Evaluate What They Cannot Annotate? Revisiting LLM Reliability in Hate Speech Detection
+    title: Can llms evaluate what they cannot annotate? revisiting llm reliability in hate speech detection
     year: '2025'
   gY7dBboAAAAJ:W7OEmFMy1HYC:
     citations: 3
     title: A systematic review of automated hyperpartisan news detection
     year: '2025'
   gY7dBboAAAAJ:WF5omc3nYNoC:
-    citations: 1
+    citations: 2
     title: 'WATCHED: A Web AI Agent Tool for Combating Hate speech by Expanding Data'
     year: '2025'
   gY7dBboAAAAJ:Y0pCki6q_DkC:
-    citations: 18
+    citations: 23
     title: Towards efficient and explainable hate speech detection via model distillation
     year: '2025'
   gY7dBboAAAAJ:YOwf2qJgpHMC:
@@ -42,23 +42,27 @@ papers:
     title: 'From Self to Other: Evaluating Demographic Perspective-Taking in LLM Hate Speech Annotation'
     year: '2026'
   gY7dBboAAAAJ:eQOLeE2rZwMC:
-    citations: 2
+    citations: 3
     title: Personalisation or prejudice? addressing geographic bias in hate speech detection using debias tuning in large language models
     year: '2026'
   gY7dBboAAAAJ:hqOjcs7Dif8C:
-    citations: 0
-    title: 'PartisanLens: A Multilingual Dataset of Hyperpartisan and Conspiratorial Immigration Narratives in European Media'
+    citations: 2
+    title: 'Partisanlens: A multilingual dataset of hyperpartisan and conspiratorial immigration narratives in european media'
     year: '2026'
   gY7dBboAAAAJ:qjMakFHDy7sC:
-    citations: 46
+    citations: 50
     title: 'MetaHate: A Dataset for Unifying Efforts on Hate Speech Detection'
     year: '2024'
+  gY7dBboAAAAJ:qxL8FJ1GzNcC:
+    citations: 0
+    title: 'Mute Cods: A Multilingual Telegram Dataset with Benchmark Models for Conspiracy Theory Detection'
+    year: '2026'
   gY7dBboAAAAJ:u-x6o8ySG0sC:
     citations: 6
     title: 'Psyprof: a platform for assisted screening of depression in social media'
     year: '2023'
   gY7dBboAAAAJ:u5HHmVD_uO8C:
-    citations: 3
+    citations: 2
     title: Gender classification models and feature impact for social media author profiling
     year: '2021'
   gY7dBboAAAAJ:ufrVoPGSRksC:
