@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
-description: Research projects I am part of.
+title: Other Activities
+permalink: /activities/
+description: Other activities I take part in.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
