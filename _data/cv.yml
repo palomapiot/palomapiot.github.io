@@ -1,12 +1,8 @@
 cv:
   name: Paloma Piot
-  label: PhD Researcher in Natural Language Processing
+  headline: Postdoctoral Researcher in Natural Language Processing
   email: palomapiot@udc.es
   location: Spain
-  image: ""
-  summary: >
-    PhD candidate and Marie Skłodowska-Curie fellow working on computational methods
-    for hate speech detection, multilingual NLP, and model explainability.
 
   social_networks:
     - network: X
@@ -14,26 +10,30 @@ cv:
     - network: GitHub
       username: palomapiot
     - network: LinkedIn
-      username: palomapiot
+      username: paloma-piot
     - network: Google Scholar
       username: gY7dBboAAAAJ
 
   sections:
+    Summary:
+      - Postdoctoral researcher at the IRLab, Universidade da Coruña, working on computational methods for hate speech detection, multilingual NLP, and model explainability. PhD (summa cum laude, 2026) as a Marie Skłodowska-Curie doctoral candidate in the HYBRIDS project.
+
     Education:
       - institution: Universidade da Coruña
         location: A Coruña, Spain
         area: Natural Language Processing / Computer Science
-        studyType: PhD
+        degree: PhD
         start_date: 2023-10
-        end_date: 2026-10
+        end_date: 2026-09
         highlights:
-          - Marie Skłodowska-Curie Research Fellow
-          - Research on hate speech detection
+          - "Thesis: Explainable and Efficient Language Models for Hate Speech Detection"
+          - Summa cum laude, defended 21 September 2026
+          - Marie Skłodowska-Curie doctoral candidate within the HYBRIDS project
 
       - institution: Universidade da Coruña
         location: A Coruña, Spain
         area: Computer Science
-        studyType: Master’s Degree
+        degree: MSc
         start_date: 2018
         end_date: 2020
         highlights:
@@ -42,33 +42,76 @@ cv:
       - institution: Universidade da Coruña
         location: A Coruña, Spain
         area: Computer Science
-        studyType: Bachellor's Degree
+        degree: BSc
         start_date: 2014
         end_date: 2018
 
     Experience:
-      - company: IRlab - Universidade da Coruña
-        position: PhD Researcher & Research Assistant
-        location: Spain
+      - company: IRLab - Universidade da Coruña
+        position: Postdoctoral Researcher
+        location: A Coruña, Spain
+        start_date: 2026-10
+        end_date: present
+        highlights:
+          - Research on perspectivist approaches to hate speech detection with LLMs
+
+      - company: IRLab - Universidade da Coruña
+        position: Marie Skłodowska-Curie Doctoral Researcher
+        location: A Coruña, Spain
         start_date: 2023-10
         end_date: 2026-10
         highlights:
-          - PhD thesis on hate speech detection
+          - PhD thesis on hate speech detection within the HYBRIDS project
+
+    # Selected papers (selected={true} in _bibliography/papers.bib).
+    # journal/authors are used by the PDF; publisher is used by the web CV page.
+    Publications:
+      - title: "Personalisation or Prejudice? Addressing Geographic Bias in Hate Speech Detection using Debias Tuning in Large Language Models"
+        authors: ["**Paloma Piot**", "Patricia Martín-Rodilla", "Javier Parapar"]
+        journal: ICWSM 2026
+        publisher: ICWSM 2026
+        date: 2026
+        url: https://ojs.aaai.org/index.php/ICWSM/article/view/42726
+
+      - title: "Decoding Hate: Exploring Language Models' Reactions to Hate Speech"
+        authors: ["**Paloma Piot**", "Javier Parapar"]
+        journal: NAACL 2025
+        publisher: NAACL 2025
+        date: 2025
+        url: https://aclanthology.org/2025.naacl-long.45/
+
+      - title: "Towards Efficient and Explainable Hate Speech Detection via Model Distillation"
+        authors: ["**Paloma Piot**", "Javier Parapar"]
+        journal: ECIR 2025
+        publisher: ECIR 2025
+        date: 2025
+        url: https://link.springer.com/chapter/10.1007/978-3-031-88711-6_24
+
+      - title: "WATCHED: A Web AI Agent Tool for Combating Hate Speech by Expanding Data"
+        authors: ["**Paloma Piot**", "Diego Sánchez", "Javier Parapar"]
+        journal: SoftwareX 32, 2025
+        publisher: SoftwareX 32, 2025
+        date: 2025
+        url: https://www.sciencedirect.com/science/article/pii/S2352711025003978
+
+      - title: "MetaHate: A Dataset for Unifying Efforts on Hate Speech Detection"
+        authors: ["**Paloma Piot**", "Patricia Martín-Rodilla", "Javier Parapar"]
+        journal: ICWSM 2024
+        publisher: ICWSM 2024
+        date: 2024
+        url: https://ojs.aaai.org/index.php/ICWSM/article/view/31445
 
     Awards:
-      - title: Best Open Source Project Award
-        authors: ["Paloma Piot"]
+      - name: Best Open Source Project Award
         date: 2021-10
-        awarder: Universidad da Coruña
-        summary: Winner of the award for the best open-source university project in 2021.
+        awarder: Universidade da Coruña
+        summary: Awarded by Universidade da Coruña for the best open-source university project in 2021.
 
     Skills:
-      - name: Natural Language Processing
-        level: Advanced
-        keywords: "Hate Speech Detection, Dataset Construction, Multilingual NLP, Benchmarking"
-      - name: Machine Learning
-        level: Advanced
-        keywords: "LLMs, Model Distillation, Explainability, Debiasing"
+      - label: Natural Language Processing
+        details: "Hate Speech Detection, Dataset Construction, Multilingual NLP, Benchmarking"
+      - label: Machine Learning
+        details: "LLMs, Model Distillation, Explainability, Debiasing"
 
     Languages:
       - name: Spanish
