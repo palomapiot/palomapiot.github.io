@@ -5,7 +5,7 @@ permalink: /activities/
 description: Other activities I take part in.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [work]
 horizontal: false
 ---
 
@@ -62,4 +62,30 @@ horizontal: false
   </div>
   {% endif %}
 {% endif %}
+</div>
+
+<!-- Activity lists, from _data/activities.yml -->
+<div class="activities">
+{% for group in site.data.activities %}
+  <section class="activity-section">
+    <h2 class="category">{{ group.section }}</h2>
+    <ul class="activity-list{% if group.compact %} compact{% endif %}">
+    {% for item in group.items %}
+      <li class="activity-item">
+        {% if item.date %}<span class="activity-date">{{ item.date }}</span>{% endif %}
+        <div class="activity-body">
+          <span class="activity-title">{{ item.title }}</span>
+          {% if item.event %}<span class="activity-event">{{ item.event }}</span>{% endif %}
+          {% if item.note %}<span class="activity-note">{{ item.note }}</span>{% endif %}
+          {% if item.links %}
+          <span class="activity-links">
+            {% for link in item.links %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% endfor %}
+          </span>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+    </ul>
+  </section>
+{% endfor %}
 </div>

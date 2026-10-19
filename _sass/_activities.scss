@@ -1,0 +1,89 @@
+/*******************************************************************************
+ * Styles for the activity lists on the Other Activities page
+ ******************************************************************************/
+
+.activities {
+  margin-top: 2.5rem;
+
+  .activity-section {
+    margin-bottom: 2.5rem;
+  }
+
+  .activity-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .activity-item {
+    display: flex;
+    gap: 1.25rem;
+    padding: 0.65rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .activity-date {
+    flex: 0 0 7.5rem;
+    color: var(--global-theme-color);
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding-top: 0.1rem;
+    white-space: nowrap;
+  }
+
+  .activity-body {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .activity-title {
+    font-weight: 500;
+  }
+
+  .activity-event,
+  .activity-note {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+
+  .activity-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.35rem;
+
+    a {
+      font-size: 0.75rem;
+      padding: 0.05rem 0.55rem;
+      border: 1px solid var(--global-theme-color);
+      border-radius: 999px;
+      color: var(--global-theme-color);
+      text-decoration: none;
+
+      &:hover {
+        background-color: var(--global-theme-color);
+        color: var(--global-bg-color);
+      }
+    }
+  }
+
+  .compact .activity-note {
+    margin-top: 0.15rem;
+  }
+
+  @media (max-width: 576px) {
+    .activity-item {
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+
+    .activity-date {
+      flex-basis: auto;
+    }
+  }
+}

@@ -1,0 +1,191 @@
+# Entries shown on the Other Activities page (_pages/projects.md), newest first.
+# Fields: date (shown as-is), title, event (optional), note (optional), links (optional list of label/url).
+
+- section: Talks & presentations
+  items:
+    - date: May 2026
+      title: Poster presentation, full paper
+      event: ICWSM 2026
+    - date: May 2026
+      title: Oral presentation, extended abstract
+      event: InDor26 — The Information Disorder Workshop @ LREC 2026
+    - date: May 2026
+      title: Poster presentation, full paper
+      event: LREC 2026
+    - date: Mar 2026
+      title: Poster presentation, full paper
+      event: EACL 2026
+    - date: Apr 2025
+      title: Oral presentation, full paper
+      event: NAACL 2025
+    - date: Apr 2025
+      title: Oral presentation, full paper
+      event: ECIR 2025
+    - date: Feb 2025
+      title: "HYBRIDS: hate speech detection on social media"
+      event: Invited talk, GESIS — Leibniz Institute for the Social Sciences
+    - date: Jun 2024
+      title: Poster presentation, full paper
+      event: ICWSM 2024
+    - date: Apr 2024
+      title: "Hate Speech Detection on Social Media"
+      event: Invited talk, Radboud University
+    - date: Dec 2023
+      title: Round table participant
+      event: III Seminario de Proyectos Transdisciplinares en Humanidades e Informática
+
+- section: Outreach & media
+  items:
+    - date: Oct 2026
+      title: Interview
+      event: Galicia Exterior
+      links:
+        - label: Interview
+          url: https://www.galiciaexterior.com/es/europa/palomapiot
+    - date: Oct 2026
+      title: Speaker
+      event: IV Jornadas de IA y Sesgos, Universidade da Coruña
+      links:
+        - label: El Español
+          url: https://www.elespanol.com/quincemil/economia/tecnologia/20261002/udc-analiza-coruna-sesgos-genero-discriminacion-presentes-inteligencia-artificial/1003744406378_0.amp.html
+    - date: Oct 2026
+      title: Interview on gender bias in AI
+      event: La Opinión A Coruña
+      links:
+        - label: Article
+          url: https://www.laopinioncoruna.es/coruna/2026/10/03/misoginia-gallego-inteligencia-artificial-debate-ia-nesgos-xenero-saen-man-humana-134897180.amp.html
+    - date: Jun 2026
+      title: Science outreach activity
+      event: Cullerciencia
+    - date: May 2026
+      title: Science outreach stand and radio interview
+      event: Ciencia na Rúa 2026 · CUAC FM
+      links:
+        - label: Radio (YouTube)
+          url: https://www.youtube.com/watch?v=syzClkLb1V0&t=793s
+    - date: Apr 2026
+      title: Speaker
+      event: Xornada sobre as novas violencias machistas dixitais, Deputación da Coruña
+      links:
+        - label: Programme
+          url: https://www.coruna.gal/informacionxuvenil/gl/convocatorias/actividades/detalle-actividades/xornada-sobre-as-novas-violencias-machistas-dixitais/suceso/1453916251980
+        - label: Defronte
+          url: https://defronte.gal/xornada-violencias-machistas-dixitais/
+        - label: A Coruña XA
+          url: https://acorunaxa.com/es/news/la-diputacion-lleva-al-muncyt-un-debate-sobre-la-nueva-violencia-machista-en-las-redes/120892/
+    - date: Dec 2025
+      title: Talk
+      event: AtlánticaLabs (GPUL Labs)
+      links:
+        - label: Meetup
+          url: https://www.meetup.com/gpul-labs/events/311848651/
+    - date: Dec 2025
+      title: Round table on AI and ethics
+      event: "Xornada Intelixencia con Conciencia, Paideia · CIE Mans"
+      links:
+        - label: Event
+          url: https://www.manspaideia.com/xornada-intelixencia-con-conciencia/
+        - label: A Coruña XA
+          url: https://acorunaxa.com/es/news/expertas-de-la-universidad-y-la-empresa-analizan-en-el-cie-mans-el-impacto-de-la-inteligencia-artificial/110595/
+        - label: X
+          url: https://x.com/itspalomap/status/1998454396204523750
+    - date: Sep 2025
+      title: "Combatendo a Desinformación e a Linguaxe Abusiva con Intelixencia Humana e Artificial"
+      event: European Researchers' Night (G-Night 2025)
+      links:
+        - label: X
+          url: https://x.com/IRLab_UDC/status/1971666268102262960
+    - date: Jun 2025
+      title: Thread summarising my PhD research
+      event: X · Bluesky
+      links:
+        - label: X
+          url: https://x.com/itspalomap/status/1932367604548522241
+        - label: Bluesky
+          url: https://bsky.app/profile/itspaloma.bsky.social/post/3lrakuil7kc2x
+    - date: May 2025
+      title: Science outreach stand
+      event: Ciencia na Rúa 2025
+      links:
+        - label: X
+          url: https://x.com/itspalomap/status/1921256201129435381
+    - date: Feb 2025
+      title: Interview with students on hate speech and disinformation
+      event: Prensa-Escuela · CPI de Lousame
+      links:
+        - label: Article
+          url: https://www.prensaescuela.es/periodismo-escuela/contrastar-e-verificar-a-receita-para-combater-a-desinformacion-nas-redes-sociais/
+    - date: Nov 2024
+      title: Talk on computer engineering and the HYBRIDS project
+      event: IES Isaac Díaz Pardo
+      links:
+        - label: School
+          url: https://www.edu.xunta.gal/centros/iesisaacdiazpardo/node/989
+    - date: Sep 2024
+      title: "Síntomas depresivos y uso de redes sociales"
+      event: European Researchers' Night (G-Night 2024)
+      links:
+        - label: G-Night
+          url: https://gnight.gal/charla-sintomas-depresivos-y-uso-de-redes-sociales/
+        - label: CITIC
+          url: https://citic.udc.es/el-citic-de-la-udc-se-une-a-la-g-night-2024-con-actividades-de-divulgacion-cientifica-para-todas-las-edades/
+    - date: Apr 2024
+      title: Talk
+      event: Anita Borg
+    - date: Jan 2024
+      title: PhD introduction video
+      event: HYBRIDS MSCA
+      links:
+        - label: X
+          url: https://x.com/HYBRIDS_MSCA/status/1749800973655306636
+
+- section: Organisation
+  items:
+    - date: 2027
+      title: Organising committee
+      event: WOAH 2027 — Workshop on Online Abuse and Harms @ ACL 2027
+    - date: 2027
+      title: Internal Communications Chair
+      event: EACL 2027
+      links:
+        - label: Committees
+          url: https://2027.eacl.org/committees/organization/
+    - date: Nov 2026
+      title: Organising committee
+      event: WOAH 2026 — Workshop on Online Abuse and Harms @ EMNLP 2026
+    - date: May 2026
+      title: Programme committee
+      event: InDor26 — The Information Disorder Workshop @ LREC 2026
+      links:
+        - label: Workshop
+          url: https://softconf.com/lrec2026/InDor26/
+    - date: Oct 2024
+      title: Session chair, oral communications (Block VIII)
+      event: XoveTIC 2024
+
+- section: Research stays
+  items:
+    - date: Jan – Mar 2026
+      title: Visiting researcher
+      event: GESIS — Leibniz Institute for the Social Sciences
+    - date: Feb – Apr 2025
+      title: Visiting researcher
+      event: GESIS — Leibniz Institute for the Social Sciences
+    - date: Nov – Dec 2024
+      title: Visiting researcher
+      event: imaxin|software
+    - date: Apr – Jun 2024
+      title: Visiting researcher
+      event: Radboud University, Nijmegen
+
+- section: Reviewing
+  compact: true
+  items:
+    - title: Conferences
+      note: >-
+        ICWSM (2024–2027) · ACL Rolling Review (EMNLP 2024, ACL 2026) · The Web Conference (WWW 2026) ·
+        CLEF eRisk (2025, 2026) · SIGIR (2024, 2025, subreviewer) · ECAI (2024, subreviewer)
+    - title: Journals
+      note: >-
+        Artificial Intelligence Review · Behaviour & Information Technology · Discover Computing ·
+        IEEE Transactions on Affective Computing · Information Systems Frontiers · Language Resources and Evaluation
