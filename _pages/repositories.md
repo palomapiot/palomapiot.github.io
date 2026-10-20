@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: Repositories
 description: 
-nav: true
+nav: false # hidden from the menu; set to true to show the tab again
 nav_order: 4
 ---
 

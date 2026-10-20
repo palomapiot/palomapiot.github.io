@@ -82,6 +82,12 @@
     - date: Jun 2026
       title: Science outreach activity
       event: Cullerciencia
+    - date: 2026
+      title: "#HiloTesis 2026: finalist for Universidade da Coruña"
+      event: Thread science communication contest
+      links:
+        - label: Instagram
+          url: https://www.instagram.com/p/DYe7sexDHJC/
     - date: May 2026
       title: Science outreach stand and radio interview
       event: Ciencia na Rúa 2026 · CUAC FM
@@ -99,7 +105,7 @@
         - label: A Coruña XA
           url: https://acorunaxa.com/es/news/la-diputacion-lleva-al-muncyt-un-debate-sobre-la-nueva-violencia-machista-en-las-redes/120892/
     - date: Dec 2025
-      title: Talk
+      title: "From Words to Wisdom: Hate Speech Detection in the Age of LLMs"
       event: AtlánticaLabs (GPUL Labs)
       links:
         - label: Meetup
@@ -121,8 +127,8 @@
         - label: X
           url: https://x.com/IRLab_UDC/status/1971666268102262960
     - date: Jun 2025
-      title: Thread summarising my PhD research
-      event: X · Bluesky
+      title: "#HiloTesis 2025: participant"
+      event: Thread science communication contest
       links:
         - label: X
           url: https://x.com/itspalomap/status/1932367604548522241
@@ -150,8 +156,6 @@
       title: "Síntomas depresivos y uso de redes sociales"
       event: European Researchers' Night (G-Night 2024)
       links:
-        - label: G-Night
-          url: https://gnight.gal/charla-sintomas-depresivos-y-uso-de-redes-sociales/
         - label: CITIC
           url: https://citic.udc.es/el-citic-de-la-udc-se-une-a-la-g-night-2024-con-actividades-de-divulgacion-cientifica-para-todas-las-edades/
     - date: Apr 2024
@@ -169,6 +173,9 @@
     - date: 2027
       title: Organising committee
       event: WOAH 2027 — Workshop on Online Abuse and Harms @ ACL 2027
+      links:
+        - label: WOAH
+          url: https://www.thewoah.org/organization.html
     - date: 2027
       title: Internal Communications Chair
       event: EACL 2027
@@ -178,12 +185,9 @@
     - date: Nov 2026
       title: Organising committee
       event: WOAH 2026 — Workshop on Online Abuse and Harms @ EMNLP 2026
-    - date: May 2026
-      title: Programme committee
-      event: InDor26 — The Information Disorder Workshop @ LREC 2026
       links:
-        - label: Workshop
-          url: https://softconf.com/lrec2026/InDor26/
+        - label: WOAH
+          url: https://www.thewoah.org/organization.html
     - date: Oct 2024
       title: Session chair, oral communications (Block VIII)
       event: XoveTIC 2024
@@ -209,7 +213,11 @@
     - title: Conferences
       note: >-
         ICWSM (2024–2027) · ACL Rolling Review (EMNLP 2024, ACL 2026) · The Web Conference (WWW 2026) ·
-        CLEF eRisk (2025, 2026) · SIGIR (2024, 2025, subreviewer) · ECAI (2024, subreviewer)
+        CLEF eRisk (2025, 2026) · SIGIR (2024, 2025, subreviewer) · ECAI (2024, subreviewer) ·
+        InDor26 — The Information Disorder Workshop @ LREC 2026 (programme committee)
+      links:
+        - label: InDor26
+          url: https://softconf.com/lrec2026/InDor26/
     - title: Journals
       note: >-
         Artificial Intelligence Review · Behaviour & Information Technology · Discover Computing ·

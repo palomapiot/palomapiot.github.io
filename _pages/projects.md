@@ -7,8 +7,10 @@ nav: true
 nav_order: 3
 display_categories: [work]
 horizontal: false
+show_projects: false # set to true to show the project cards (_projects/) again
 ---
 
+{% if page.show_projects %}
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
@@ -63,6 +65,7 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
+{% endif %}
 
 <!-- Activity lists, from _data/activities.yml -->
 <div class="activities">
