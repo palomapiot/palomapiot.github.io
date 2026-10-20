@@ -1,32 +1,57 @@
 # Entries shown on the Other Activities page (_pages/projects.md), newest first.
-# Fields: date (shown as-is), title, event (optional), note (optional), links (optional list of label/url).
+# Fields: date (shown as-is), title, event (optional), paper (optional), note (optional), links (optional list of label/url).
 
 - section: Talks & presentations
   items:
     - date: May 2026
       title: Poster presentation, full paper
       event: ICWSM 2026
+      paper: "Personalisation or Prejudice? Addressing Geographic Bias in Hate Speech Detection using Debias Tuning in Large Language Models"
+      links:
+        - label: Paper
+          url: https://ojs.aaai.org/index.php/ICWSM/article/view/42726
     - date: May 2026
       title: Oral presentation, extended abstract
       event: InDor26 — The Information Disorder Workshop @ LREC 2026
+      paper: "Efficient and Explainable Hate Speech Detection through Distillation, Reasoning, and Agentic AI"
     - date: May 2026
       title: Poster presentation, full paper
       event: LREC 2026
+      paper: "Can LLMs Evaluate What They Cannot Annotate? Revisiting LLM Reliability in Hate Speech Detection"
+      links:
+        - label: Paper
+          url: https://aclanthology.org/2026.lrec-1.341/
     - date: Mar 2026
       title: Poster presentation, full paper
       event: EACL 2026
+      paper: "PartisanLens: A Multilingual Dataset of Hyperpartisan and Conspiratorial Immigration Narratives in European Media"
+      links:
+        - label: Paper
+          url: https://arxiv.org/abs/2601.03860
     - date: Apr 2025
       title: Oral presentation, full paper
       event: NAACL 2025
+      paper: "Decoding Hate: Exploring Language Models' Reactions to Hate Speech"
+      links:
+        - label: Paper
+          url: https://aclanthology.org/2025.naacl-long.45/
     - date: Apr 2025
       title: Oral presentation, full paper
       event: ECIR 2025
+      paper: "Towards Efficient and Explainable Hate Speech Detection via Model Distillation"
+      links:
+        - label: Paper
+          url: https://link.springer.com/chapter/10.1007/978-3-031-88711-6_24
     - date: Feb 2025
       title: "HYBRIDS: hate speech detection on social media"
       event: Invited talk, GESIS — Leibniz Institute for the Social Sciences
     - date: Jun 2024
       title: Poster presentation, full paper
       event: ICWSM 2024
+      paper: "MetaHate: A Dataset for Unifying Efforts on Hate Speech Detection"
+      links:
+        - label: Paper
+          url: https://ojs.aaai.org/index.php/ICWSM/article/view/31445
     - date: Apr 2024
       title: "Hate Speech Detection on Social Media"
       event: Invited talk, Radboud University

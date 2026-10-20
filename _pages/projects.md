@@ -76,6 +76,7 @@ horizontal: false
         <div class="activity-body">
           <span class="activity-title">{{ item.title }}</span>
           {% if item.event %}<span class="activity-event">{{ item.event }}</span>{% endif %}
+          {% if item.paper %}<span class="activity-paper">{{ item.paper }}</span>{% endif %}
           {% if item.note %}<span class="activity-note">{{ item.note }}</span>{% endif %}
           {% if item.links %}
           <span class="activity-links">
