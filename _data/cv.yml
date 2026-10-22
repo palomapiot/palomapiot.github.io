@@ -16,7 +16,7 @@ cv:
 
   sections:
     Summary:
-      - Postdoctoral researcher at the IRLab, Universidade da Coruña, working on computational methods for hate speech detection, multilingual NLP, and model explainability. PhD (summa cum laude, 2026) as a Marie Skłodowska-Curie doctoral candidate in the HYBRIDS project.
+      - Postdoctoral researcher at the IRLab, Universidade da Coruña, working on computational methods for hate speech detection, multilingual NLP, and model explainability. PhD (cum laude, 2026) as a Marie Skłodowska-Curie doctoral candidate in the HYBRIDS project.
 
     Education:
       - institution: Universidade da Coruña
@@ -27,7 +27,7 @@ cv:
         end_date: 2026-09
         highlights:
           - "Thesis: Explainable and Efficient Language Models for Hate Speech Detection"
-          - Summa cum laude, defended 21 September 2026
+          - Cum laude, defended 21 September 2026
           - Marie Skłodowska-Curie doctoral candidate within the HYBRIDS project
 
       - institution: Universidade da Coruña
