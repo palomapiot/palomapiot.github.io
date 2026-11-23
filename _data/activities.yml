@@ -3,6 +3,20 @@
 
 - section: Talks & presentations
   items:
+    - date: Oct 2026
+      title: Poster presentation, full paper
+      event: EMNLP 2026
+      paper: "From Self to Other: Evaluating Demographic Perspective-Taking in LLM Hate Speech Annotation"
+      links:
+        - label: Paper
+          url: https://arxiv.org/abs/2606.06266
+    - date: Oct 2026
+      title: Poster presentation, full paper
+      event: EMNLP 2026
+      paper: "Beyond the Explicit: A Bilingual Dataset for Dehumanization Detection in Social Media"
+      links:
+        - label: Paper
+          url: https://arxiv.org/abs/2510.18582
     - date: May 2026
       title: Poster presentation, full paper
       event: ICWSM 2026
@@ -61,6 +75,21 @@
 
 - section: Outreach & media
   items:
+    - date: Nov 2026
+      title: Interview on my PhD thesis
+      event: La Opinión A Coruña
+      links:
+        - label: Article
+          url: https://www.laopinioncoruna.es/coruna/2026/11/23/paloma-piot-investigadora-creamos-programa-135877295.html
+    - date: Nov 2026
+      title: "Intelixencia artificial contra os discursos de odio"
+      event: O Descodificador (podcast)
+      links:
+        - label: Spotify
+          url: https://open.spotify.com/episode/76js8QYKWM1pvSKEN5XQti
+    - date: Oct 2026
+      title: Finalist, national science communication contest
+      event: CITIC, Universidade da Coruña
     - date: Oct 2026
       title: Interview
       event: Galicia Exterior
@@ -212,7 +241,7 @@
   items:
     - title: Conferences
       note: >-
-        ICWSM (2024–2027) · ACL Rolling Review (EMNLP 2024, ACL 2026) · The Web Conference (WWW 2026) ·
+        ICWSM (2024–2027) · ACL Rolling Review (EMNLP 2024, ACL 2026, October 2026) · The Web Conference (WWW 2026) ·
         CLEF eRisk (2025, 2026) · SIGIR (2024, 2025, subreviewer) · ECAI (2024, subreviewer) ·
         InDor26 — The Information Disorder Workshop @ LREC 2026 (programme committee)
       links:
@@ -221,4 +250,5 @@
     - title: Journals
       note: >-
         Artificial Intelligence Review · Behaviour & Information Technology · Discover Computing ·
-        IEEE Transactions on Affective Computing · Information Systems Frontiers · Language Resources and Evaluation
+        IEEE Transactions on Affective Computing · Information Processing & Management · Information Systems Frontiers ·
+        Language Resources and Evaluation
