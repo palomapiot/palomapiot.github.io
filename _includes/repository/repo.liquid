@@ -1,15 +1,16 @@
 {% assign repo_url = include.repository | split: '/' %}
 {% assign owner = repo_url[0] %}
 {% assign name = repo_url[1] %}
-{% assign repo = site.github.public_repositories | where: "name", name | first %}
+{% assign repo = site.github.public_repositories | where: 'name', name | first %}
 
 <div class="card repo-card h-100 border-0">
   <div class="card-body d-flex flex-column">
-
     <!-- Title -->
     <h5 class="card-title mb-2">
-      <a href="https://github.com/{{ include.repository }}" 
-         class="repo-link text-decoration-none">
+      <a
+        href="https://github.com/{{ include.repository }}"
+        class="repo-link text-decoration-none"
+      >
         <i class="fab fa-github me-2"></i>{{ name }}
       </a>
     </h5>
@@ -23,7 +24,6 @@
 
     <!-- Metadata -->
     <div class="repo-meta small text-muted mt-3">
-
       <!-- Owner -->
       <span class="me-2">
         {{ owner }}
@@ -39,12 +39,8 @@
 
       <!-- Stars -->
       {% if repo.stargazers_count %}
-        <span>
-          ★ {{ repo.stargazers_count }}
-        </span>
+        <span> ★ {{ repo.stargazers_count }} </span>
       {% endif %}
-
     </div>
-
   </div>
 </div>

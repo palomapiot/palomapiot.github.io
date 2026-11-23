@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: 
+description:
 nav: false # hidden from the menu; set to true to show the tab again
 nav_order: 4
 ---
@@ -17,7 +17,6 @@ nav_order: 4
     Reproducible research, datasets, benchmarks, and experimental tooling 
     for hate speech detection.
   </p>
-
 
   <div class="row">
     {% for user in site.data.repositories.github_users %}
@@ -56,4 +55,3 @@ nav_order: 4
 </div>
 
 {% endif %}
-

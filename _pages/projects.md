@@ -11,6 +11,7 @@ show_projects: false # set to true to show the project cards (_projects/) again
 ---
 
 {% if page.show_projects %}
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
