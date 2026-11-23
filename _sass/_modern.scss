@@ -6,7 +6,12 @@
 
 @use "variables" as v;
 
-$font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+$font-sans:
+  "Inter",
+  system-ui,
+  -apple-system,
+  "Segoe UI",
+  sans-serif;
 $font-mono: "Inconsolata", monospace;
 // Tints follow the theme colour, so dark mode gets its own accent
 $tint: color-mix(in srgb, var(--global-theme-color) 8%, transparent);
