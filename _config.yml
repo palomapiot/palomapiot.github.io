@@ -11,7 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   PhD researcher in Natural Language Processing working on hate speech detection.
 footer_text: >
-  © Paloma Piot · Powered by Jekyll (al-folio) · Hosted on GitHub Pages
+  Powered by Jekyll (al-folio) · Hosted on GitHub Pages
 keywords: NLP, hate speech detection, multilingual NLP, LLMs, low-resource languages, computational linguistics
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -52,7 +52,7 @@ external_services:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: false
 socials_in_search: true
 posts_in_search: true
@@ -459,7 +459,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&family=Roboto+Slab:wght@400;600;700&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&family=Inter:wght@400;500;600;700&display=swap"
       #fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
   highlightjs:
     integrity:

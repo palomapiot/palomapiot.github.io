@@ -4,7 +4,7 @@ title: Other Activities
 permalink: /activities/
 description: Other activities I take part in.
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [work]
 horizontal: false
 show_projects: false # set to true to show the project cards (_projects/) again

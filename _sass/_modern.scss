@@ -1,0 +1,355 @@
+/*******************************************************************************
+ * Modern, minimalist layer on top of the al-folio styles.
+ * Inter for reading text, Inconsolata for small labels, dates and navigation.
+ * Loaded last in assets/css/main.scss, so delete that line to go back.
+ ******************************************************************************/
+
+@use "variables" as v;
+
+$font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+$font-mono: "Inconsolata", monospace;
+// Tints follow the theme colour, so dark mode gets its own accent
+$tint: color-mix(in srgb, var(--global-theme-color) 8%, transparent);
+$tint-strong: color-mix(in srgb, var(--global-theme-color) 35%, transparent);
+$tint-glow: color-mix(in srgb, var(--global-theme-color) 6%, transparent);
+
+// Base text
+
+body {
+  font-family: $font-sans;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: -0.005em;
+  background-image: radial-gradient(60rem 28rem at 100% 0, $tint-glow, transparent 70%);
+  background-repeat: no-repeat;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $font-sans;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+  }
+}
+
+// Links in running text: thin tinted underline that fills in on hover
+
+article p a:not(.btn) {
+  text-decoration: underline;
+  text-decoration-color: $tint-strong;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s ease-in-out;
+
+  &:hover {
+    text-decoration-color: var(--global-theme-color);
+  }
+}
+
+// Half highlight: a marker stroke behind the lower half of the text
+
+@mixin half-highlight($strength: 22%) {
+  display: inline;
+  padding: 0 0.12em;
+  background-image: linear-gradient(
+    transparent 58%,
+    color-mix(in srgb, var(--global-theme-color) $strength, transparent) 58%,
+    color-mix(in srgb, var(--global-theme-color) $strength, transparent) 90%,
+    transparent 90%
+  );
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+// Page header: large title with a half highlight
+
+.post-header {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+
+  .post-title {
+    font-size: 2.6rem;
+    line-height: 1.15;
+    letter-spacing: -0.035em;
+  }
+
+  .post-title > .hl-title {
+    @include half-highlight;
+  }
+
+  .post-description {
+    font-family: $font-mono;
+    font-size: 0.95rem;
+    color: var(--global-text-color-light);
+  }
+}
+
+// Navigation: monospace links, active page as a tinted pill
+
+.navbar {
+  opacity: 1;
+  background-color: color-mix(in srgb, var(--global-bg-color) 85%, transparent);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.navbar.navbar-light {
+  .navbar-brand {
+    font-family: $font-sans;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-family: $font-mono;
+    font-size: 0.95rem;
+    border-radius: 999px;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    transition: background-color 0.15s ease-in-out;
+
+    &:hover {
+      background-color: $tint;
+    }
+  }
+
+  .navbar-nav .nav-item.active > .nav-link {
+    font-weight: 500;
+    background-color: $tint;
+  }
+}
+
+// Profile photo on the About page
+
+.profile {
+  img {
+    border-radius: 16px !important;
+    box-shadow: 0 12px 32px -16px rgba(v.$black-color, 0.35) !important;
+  }
+
+  .more-info {
+    font-family: $font-mono;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
+}
+
+// Other Activities: section labels in small caps with a leading line
+
+.activities {
+  h2.category {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-family: $font-mono;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--global-theme-color);
+    margin-bottom: 1rem;
+
+    &::before {
+      content: "";
+      width: 1.75rem;
+      height: 2px;
+      background-color: var(--global-theme-color);
+    }
+  }
+
+  .activity-date,
+  .activity-event,
+  .activity-links a {
+    font-family: $font-mono;
+  }
+
+  .activity-title {
+    font-weight: 600;
+  }
+
+  // Link chips: soft tinted fill and an arrow instead of an outline
+  .activity-links {
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.8rem;
+      line-height: 1.5;
+      padding: 0.15rem 0.6rem;
+      border: none;
+      border-radius: 6px;
+      background-color: $tint;
+      text-decoration: none;
+      transition:
+        background-color 0.15s ease-in-out,
+        color 0.15s ease-in-out;
+
+      &::after {
+        content: "↗";
+        font-size: 0.75rem;
+        opacity: 0.7;
+      }
+
+      &:hover {
+        background-color: var(--global-theme-color);
+        color: var(--global-bg-color);
+      }
+    }
+  }
+}
+
+// Research page: intro paragraph under the first section label
+
+.research .activity-section > p {
+  margin-bottom: 1rem;
+}
+
+// Half highlights in running text and section headings.
+// Use in Markdown as <span class="hl">a few words</span>.
+
+.hl {
+  @include half-highlight(18%);
+}
+
+.post article > h2 > a {
+  @include half-highlight;
+  text-decoration: none;
+}
+
+// Publications: sans titles, monospace metadata
+
+.publications {
+  .title {
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  .author,
+  .periodical {
+    font-family: $font-mono;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  // No venue badges or thumbnails are used, so drop the empty left column
+  // and let the entry use the full width
+  .abbr:not(:has(*)) {
+    display: none;
+  }
+
+  .abbr:not(:has(*)) + .col-sm-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+// CV: smaller text, medium weight instead of bold, quiet cards
+
+.cv {
+  font-size: 0.92rem;
+
+  .card {
+    border-radius: 12px;
+    box-shadow: none !important;
+  }
+
+  .card-title {
+    @include half-highlight;
+    // The card is a flex column, so stop the heading from stretching across it
+    align-self: flex-start;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  table td {
+    font-size: 0.92rem;
+  }
+
+  .location {
+    font-family: $font-mono;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+  }
+
+  h6 {
+    font-size: 0.92rem !important;
+    line-height: 1.5;
+  }
+
+  h6.title {
+    font-weight: 500 !important;
+  }
+
+  h6:not(.title) {
+    font-weight: 400;
+    color: var(--global-text-color-light);
+  }
+
+  // Paper titles in the text colour; the theme colour only on hover
+  .title a {
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+
+  // Date labels: tinted text instead of a solid purple block
+  .card .list-group-item .badge {
+    font-family: $font-mono;
+    font-size: 0.8rem;
+    font-weight: 500 !important;
+    color: var(--global-theme-color) !important;
+    background-color: $tint !important;
+  }
+
+  // Contact table labels
+  td.font-weight-bold,
+  td b {
+    font-weight: 500 !important;
+    color: var(--global-text-color-light);
+  }
+
+  li,
+  p {
+    font-size: 0.92rem;
+  }
+}
+
+// Footer: light and quiet, in the same font as the text
+
+footer.fixed-bottom,
+footer.sticky-bottom {
+  font-family: $font-sans;
+  font-size: 0.8rem;
+}
+
+footer.sticky-bottom {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 3rem;
+
+  .container,
+  .container div {
+    color: var(--global-text-color-light);
+  }
+
+  a {
+    color: var(--global-text-color-light);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
