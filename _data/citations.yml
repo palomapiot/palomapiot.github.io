@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-11-11'
+  last_updated: '2026-11-27'
 papers:
   gY7dBboAAAAJ:9yKSN-GCB0IC:
     citations: 5
@@ -10,7 +10,7 @@ papers:
     title: 'Beyond the explicit: A bilingual dataset for dehumanization detection in social media'
     year: '2026'
   gY7dBboAAAAJ:Tyk-4Ss8FVUC:
-    citations: 18
+    citations: 19
     title: "Decoding hate: Exploring language models\u2019 reactions to hate speech"
     year: '2025'
   gY7dBboAAAAJ:ULOm3_A8WrAC:
@@ -62,7 +62,7 @@ papers:
     title: 'Psyprof: a platform for assisted screening of depression in social media'
     year: '2023'
   gY7dBboAAAAJ:u5HHmVD_uO8C:
-    citations: 2
+    citations: 3
     title: Gender classification models and feature impact for social media author profiling
     year: '2021'
   gY7dBboAAAAJ:ufrVoPGSRksC:
